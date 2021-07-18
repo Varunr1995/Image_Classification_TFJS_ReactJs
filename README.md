@@ -17,27 +17,15 @@ The Converted javascript file have weights stored in the form of json which is c
 
 The weights are already updated in to the ReactJs application, Inorder to alter the weights in the ReactJs just change files in src folder of ReactJs application.
 
-# Requirements
+# Requirements and Installation Procedure
 
-python -m pip install -r requirements.txt 
+The requirements for Python Model Development and ReactJs based application are totally different as the modules are developed in two seperate environments. The step by step process is listed below.
 
-Inorder to install the Python Libraries used in the development of model.
+Step 1 :: Inorder to install the Python Libraries and Dependencies used in the development of model, copy paste the python requirements command. 
 
+* python -m pip install -r requirements.txt 
 
-# Requirements for ReactJs and Installation Procedure
-
-
-## Preview
-
-- [Google Play Store](https://play.google.com/store/apps/details?id=YOUR_APP_BUNDLE_ID)
-- [App Store]() `Coming soon`
-
-## Technology
-
-- [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [React Native](https://facebook.github.io/react-native/)
-- [React Navigation](https://reactnavigation.org/)
-- [Axios](https://github.com/axios/axios)
-- [YOUR_OTHER_PACKAGES](https://facebook.github.io/react-native/)
+Step 2 :: Installation of Libraries and Dependencies of ReactJs Application 
 
 ## Requirements
 
@@ -119,3 +107,16 @@ yarn release-build
 - Archive app
 - Sign and upload to TestFlight
 - After TestFlight is apporved promote release to production
+
+## Preview
+
+- [Google Play Store](https://play.google.com/store/apps/details?id=YOUR_APP_BUNDLE_ID)
+- [App Store]() `Coming soon`
+
+## Technology
+
+- [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [React Native](https://facebook.github.io/react-native/)
+- [React Navigation](https://reactnavigation.org/)
+- [Axios](https://github.com/axios/axios)
+- [YOUR_OTHER_PACKAGES](https://facebook.github.io/react-native/)
+
